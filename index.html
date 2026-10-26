@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101827">
+<title>TestWise — STQA Study Hub</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#" aria-label="TestWise home"><span class="brand-mark">T</span><span>TestWise <small>STQA STUDY HUB</small></span></a>
+  <div class="top-actions"><button id="themeToggle" class="icon-btn" aria-label="Toggle theme">☾</button><button id="menuToggle" class="icon-btn mobile-only" aria-label="Toggle navigation">☰</button></div>
+</header>
+<div class="app-shell">
+<aside class="sidebar" id="sidebar">
+  <div class="side-label">YOUR COURSE</div>
+  <div class="course-chip"><span class="course-icon">▤</span><span><b>Software Testing & QA</b><small>24CS563 · 2024 Scheme</small></span></div>
+  <div class="side-label">LEARN</div>
+  <button class="nav-item active" data-view="dashboard"><span>⌂</span> Dashboard</button>
+  <button class="nav-item" data-unit="1"><span>01</span> Unit 1 <small>Foundations</small></button>
+  <button class="nav-item" data-unit="2"><span>02</span> Unit 2 <small>Testing techniques</small></button>
+  <div class="side-label">PRACTICE</div>
+  <button class="nav-item" data-view="questions"><span>✎</span> Important Questions</button>
+  <button class="nav-item" data-view="quiz"><span>◉</span> Quick Quiz</button>
+  <button class="nav-item" data-view="revision"><span>⚡</span> Quick Revision</button>
+  <div class="sidebar-foot"><div class="progress-ring">✓</div><div><b id="sideProgress">0% complete</b><small>Your progress is saved on this device.</small></div></div>
+</aside>
+<main class="main">
+  <div class="hero" id="hero">
+    <div class="hero-copy"><div class="eyebrow"><span class="live-dot"></span> YOUR EXAM PREP WORKSPACE</div><h1>Understand testing.<br><em>Master the concepts.</em></h1><p>Clear explanations, worked examples, and exam-focused revision for STQA Units 1 & 2.</p><div class="hero-actions"><button class="primary-btn" data-unit="1">Start Unit 1 <span>→</span></button><button class="secondary-btn" data-view="revision">Quick revision</button></div></div>
+    <div class="hero-art" aria-hidden="true"><div class="orb orb1"></div><div class="orb orb2"></div><div class="test-card"><div class="test-card-top"><span class="tiny-dot"></span><span class="tiny-dot"></span><span class="tiny-dot"></span><span class="test-card-title">test_run.exe</span></div><div class="code-line"><i>01</i> <span>verify</span>(requirements)</div><div class="code-line"><i>02</i> <span>execute</span>(test_cases)</div><div class="code-line"><i>03</i> <b>if</b> defects_found:</div><div class="code-line indent"><i>04</i> <span class="green">report</span>(findings)</div><div class="test-status"><span>✓</span> TESTS PASSED <b>98.4%</b></div></div></div>
+  </div>
+  <section id="content" aria-live="polite"></section>
+  <footer>Built for focused learning · STQA 24CS563 <span>Keep testing. Keep improving. ✦</span></footer>
+</main>
+</div>
+<script src="content.js"></script><script src="app.js"></script>
+</body></html>
